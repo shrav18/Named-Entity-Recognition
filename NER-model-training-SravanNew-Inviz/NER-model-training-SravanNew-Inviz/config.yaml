@@ -1,0 +1,13 @@
+workerPoolSpecs:
+  machineSpec:
+    machineType: n1-standard-16
+  replicaCount: 1
+  containerSpec:
+    imageUri: asia-docker.pkg.dev/search-artifacts/topiq-ml-images/ner-model-training/train:latest
+    env:
+    - name: APP_ID
+      value: b9dc3c08-b967-4737-8280-86e065413b68
+    - name: MODEL_ID
+      value: ner20c08-b967-4737-8280-86e065413b68
+    - name: TEST_RUN
+      value: False

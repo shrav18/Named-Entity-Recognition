@@ -1,0 +1,8 @@
+aiofiles==0.8.0
+aiocache==0.11.1
+
+nltk==3.7
+pandas==1.5.1
+tqdm==4.64.1
+unidecode
+inflect==6.0.2
